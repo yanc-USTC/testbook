@@ -1,0 +1,104 @@
+{
+    "gitbook": "3.2.3",
+    "title": "testbook",
+    "description": "",
+    "author": "yanc",
+    "language": "zh-hans",
+    "links": {
+    "sidebar": {
+
+    }
+    },
+    "plugins": [
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "hide-element",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "splitter",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "-sharing"
+    ],
+    "pluginsConfig": {
+        "sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": true,
+            "messenger": false,
+            "pocket": true,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper", "linkedin",
+                "pocket", "stumbleupon"
+            ]
+        },
+        "tbfed-pagefooter": {
+        "copyright":"&copy yanc-USTC",
+        "modify_label": "该文件修订时间：",
+        "modify_format": "2024-10-06 9:45:24"
+        },
+        
+            "code": {
+            "copyButtons": true
+        },
+        "chapter-fold":{
+
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        
+        "github": {
+        "url": "https://github.com/yanc-USTC"
+        },
+        "donate": {
+        "wechat": "",
+        "title": "",
+        "button": "赏",
+        "wechatText": "微信打赏"
+        },
+        "anchor-navigation-ex": {
+        "associatedWithSummary":false,
+        "showLevel":true,
+        "multipleH1": true,
+        "mode": "float",
+
+        "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+        }
+        },
+        "theme-default": {
+        "showLevel": true
+        },
+        "fontsettings": {
+        "theme": "white",
+        "family": "serif",
+        "size": 2
+        },
+        "prism": {
+        "css": [
+        "prismjs/themes/prism-tomorrow.css"
+        ]
+        }
+    
+
+}
+}
